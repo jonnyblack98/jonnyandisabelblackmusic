@@ -1,0 +1,76 @@
+<form id="enquiryForm" action="https://formspree.io/f/xaylvvln" method="POST">
+  <label for="name">Your Name*</label>
+  <input type="text" id="name" name="name" required />
+
+  <label for="email">Your Email*</label>
+  <input type="email" id="email" name="_replyto" required />
+
+  <label for="eventType">Event Type</label>
+  <select id="eventType" name="eventType">
+    <option>Wedding</option>
+    <option>Funeral</option>
+    <option>Party</option>
+    <option>Other</option>
+  </select>
+
+  <label for="message">Message*</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+
+  <input type="hidden" name="_subject" value="New enquiry from your website" />
+  <input type="submit" value="Send Enquiry" />
+</form>
+What you do:
+Open your index.html in your text editor.
+
+Search (Ctrl+F or Cmd+F) for <form — you’ll find this form.
+
+Replace the URL in action="https://formspree.io/f/xaylvvln" with your Formspree URL.
+
+For example:
+
+html
+Copy
+Edit
+<form id="enquiryForm" action="https://formspree.io/f/yourformid" method="POST">
+If you want, I can send you just the updated contact form code with your real Formspree URL — then you can copy-paste it straight into your HTML file.
+
+Would you like that? Just share your Formspree URL!
+
+
+
+
+
+
+
+
+You said:
+ok heres my code from form spree - https://formspree.io/f/myzplldd
+
+
+ChatGPT said:
+Perfect! Here's your updated contact form code snippet with your Formspree URL inserted:
+
+html
+Copy
+Edit
+<form id="enquiryForm" action="https://formspree.io/f/myzplldd" method="POST">
+  <label for="name">Your Name*</label>
+  <input type="text" id="name" name="name" required />
+
+  <label for="email">Your Email*</label>
+  <input type="email" id="email" name="_replyto" required />
+
+  <label for="eventType">Event Type</label>
+  <select id="eventType" name="eventType">
+    <option>Wedding</option>
+    <option>Funeral</option>
+    <option>Party</option>
+    <option>Other</option>
+  </select>
+
+  <label for="message">Message*</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+
+  <input type="hidden" name="_subject" value="New enquiry from your website" />
+  <input type="submit" value="Send Enquiry" />
+</form>
